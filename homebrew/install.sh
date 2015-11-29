@@ -19,16 +19,8 @@ brew upgrade
 echo "  Installing BrewBundle"
 brew tap Homebrew/bundle
 
-echo "  Checking if we need to run bundle"
-brew bundle check
-
-if [ $? -eq 0 ]
-then
-  echo "  Bundle up to date."
-else
-  echo "  Running bundle"
-  brew bundle -v
-fi
+echo "  Running bundle"
+brew bundle install -v --file=$(dirname $0)/Brewfile
 
 echo "  Consider running \"brew bundle cleanup\""
 echo "  Consider running \"brew cleanup\""

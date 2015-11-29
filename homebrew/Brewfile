@@ -33,6 +33,7 @@ cask 'appcleaner'
 # useful utilities
 cask 'cheatsheet'
 cask 'dropbox'
+brew 'encfs'
 
 # Android
 cask 'android-file-transfer'
@@ -48,6 +49,9 @@ cask 'steam'
 
 # Haskell
 cask 'haskell-platform'
+
+# Go
+brew 'go'
 
 # CTF
 brew 'aircrack-ng'
