@@ -19,6 +19,10 @@ brew 'grc'
 brew 'spark'
 cask 'iterm2'
 
+# emacs
+tap 'railwaycat/emacsmacport'
+brew 'emacs-mac', args: ['with-spacemacs-icon']
+
 # remote
 brew 'mobile-shell'
 
