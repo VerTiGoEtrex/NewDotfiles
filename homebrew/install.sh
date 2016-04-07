@@ -20,7 +20,7 @@ echo "  Installing BrewBundle"
 brew tap Homebrew/bundle
 
 echo "  Running bundle"
-brew bundle install -v --file=$(dirname $0)/Brewfile
+brew bundle install --file=$(dirname $0)/Brewfile
 
 echo "  Consider running \"brew bundle cleanup\""
 echo "  Consider running \"brew cleanup\""

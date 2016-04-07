@@ -23,11 +23,18 @@ cask 'iterm2'
 tap 'railwaycat/emacsmacport'
 brew 'emacs-mac', args: ['with-spacemacs-icon']
 
+# atom
+cask 'atom'
+
 # remote
 brew 'mobile-shell'
 
+# python (must come before *vim)
+brew 'python'
+
 # vim
-brew 'vim', args: ['override-system-vi']
+#brew 'vim', args: ['override-system-vi']
+brew 'macvim', args: ['with-override-system-vim', 'with-python']
 
 # maintenence
 cask 'the-unarchiver'
@@ -38,6 +45,8 @@ cask 'appcleaner'
 cask 'cheatsheet'
 cask 'dropbox'
 brew 'encfs'
+cask 'awareness'
+cask 'rescuetime'
 
 # Android
 cask 'android-file-transfer'
