@@ -1,22 +1,7 @@
 tap 'caskroom/homebrew-cask'
 brew 'cask'
 
-# gnu
-brew 'coreutils'
-brew 'moreutils'
-brew 'findutils'
-brew 'htop-osx'
-brew 'unrar'
-brew 'wget', args: ['with-iri']
-brew 'ack'
-brew 'git'
-brew 'lynx'
-brew 'pv'
-brew 'tree'
-
 # cli
-brew 'grc'
-brew 'spark'
 cask 'iterm2'
 
 # emacs
@@ -26,26 +11,12 @@ brew 'emacs-mac', args: ['with-spacemacs-icon']
 # atom
 cask 'atom'
 
-# remote
-brew 'mobile-shell'
-
 # python (must come before *vim)
 brew 'python'
-
-# vim
-#brew 'vim', args: ['override-system-vi']
-brew 'macvim', args: ['with-override-system-vim', 'with-python']
-
-# maintenence
-cask 'the-unarchiver'
-cask 'disk-inventory-x'
-cask 'appcleaner'
 
 # useful utilities
 cask 'cheatsheet'
 cask 'dropbox'
-brew 'encfs'
-cask 'awareness'
 cask 'rescuetime'
 
 # Android
@@ -68,43 +39,28 @@ brew 'go'
 
 # CTF
 brew 'aircrack-ng'
-brew 'bfg'
-brew 'binutils'
-brew 'binwalk'
-brew 'cifer'
 brew 'dex2jar'
 brew 'dns2tcp'
 brew 'ettercap', args: ['with-gtk+']
-brew 'fcrackzip'
-brew 'foremost'
-brew 'hashpump'
 brew 'hydra'
 brew 'john'
-brew 'knock'
 brew 'nmap'
-brew 'pngcheck'
 brew 'socat'
-brew 'sqlmap'
 brew 'tcpflow'
 brew 'tcpreplay'
 brew 'tcptrace'
 brew 'ucspi-tcp' # `tcpserver` etc.
-brew 'xz'
 
 # OVPN
 cask 'tunnelblick'
 
 # HAX
 brew 'youtube-dl'
-brew 'terminal-notifier'
 
 # VIRTUALIZATION
 cask 'virtualbox'
 cask 'vagrant'
 cask 'boot2docker'
-
-# LATEX
-cask 'mactex'
 
 # MUSIC/MEDIA
 cask 'mpv'
