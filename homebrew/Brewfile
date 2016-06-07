@@ -60,13 +60,13 @@ brew 'youtube-dl'
 # VIRTUALIZATION
 cask 'virtualbox'
 cask 'vagrant'
-cask 'boot2docker'
 
 # MUSIC/MEDIA
 cask 'mpv'
 cask 'mediainfo'
 cask 'audacity'
 cask 'xld'
+cask 'adobe-photoshop-lightroom'
 
 # AVIATION
 brew 'rtl-sdr'
