@@ -3,10 +3,12 @@ brew 'cask'
 
 # cli
 cask 'iterm2'
+brew 'git'
+brew 'autoenv'
 
 # emacs
-tap 'railwaycat/emacsmacport'
-brew 'emacs-mac', args: ['with-spacemacs-icon']
+tap 'd12frosted/emacs-plus'
+brew 'emacs-plus', args: ['with-cocoa', 'with-gnutls', 'with-librsvg', 'with-imagemagick', 'with-spacemacs-icon']
 
 # atom
 cask 'atom'
@@ -17,7 +19,7 @@ brew 'python'
 # useful utilities
 cask 'cheatsheet'
 cask 'dropbox'
-cask 'rescuetime'
+cask 'alfred'
 
 # Android
 cask 'android-file-transfer'
@@ -62,7 +64,7 @@ cask 'virtualbox'
 cask 'vagrant'
 
 # MUSIC/MEDIA
-cask 'mpv'
+brew 'mpv', args: ['with-bundle']
 cask 'mediainfo'
 cask 'audacity'
 cask 'xld'
