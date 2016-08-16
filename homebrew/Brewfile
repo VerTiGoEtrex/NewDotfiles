@@ -23,6 +23,7 @@ cask 'alfred'
 
 # Android
 cask 'android-file-transfer'
+cask 'heimdall-suite'
 
 # Browser
 cask 'google-chrome'
