@@ -22,7 +22,10 @@ cask 'dropbox'
 cask 'alfred'
 
 # Android
+cask 'java'
 cask 'android-file-transfer'
+brew 'android-sdk'
+cask 'android-studio'
 cask 'heimdall-suite'
 
 # Browser
@@ -61,8 +64,7 @@ cask 'tunnelblick'
 brew 'youtube-dl'
 
 # VIRTUALIZATION
-cask 'virtualbox'
-cask 'vagrant'
+cask 'docker'
 
 # MUSIC/MEDIA
 brew 'mpv', args: ['with-bundle']
