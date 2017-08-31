@@ -4,64 +4,12 @@ brew 'cask'
 # cli
 cask 'iterm2'
 brew 'git'
-brew 'autoenv'
-
-# emacs
-tap 'd12frosted/emacs-plus'
-brew 'emacs-plus', args: ['with-cocoa', 'with-gnutls', 'with-librsvg', 'with-imagemagick', 'with-spacemacs-icon']
-
-# atom
-cask 'atom'
-
-# python (must come before *vim)
-brew 'python'
 
 # useful utilities
-cask 'cheatsheet'
-cask 'dropbox'
 cask 'alfred'
-
-# Android
-cask 'java'
-cask 'android-file-transfer'
-brew 'android-sdk'
-cask 'android-studio'
-cask 'heimdall-suite'
 
 # Browser
 cask 'google-chrome'
-
-# Chat
-cask 'skype'
-
-# Gaems
-cask 'steam'
-
-# Haskell
-cask 'haskell-platform'
-
-# Go
-brew 'go'
-
-# CTF
-brew 'aircrack-ng'
-brew 'dex2jar'
-brew 'dns2tcp'
-brew 'ettercap', args: ['with-gtk+']
-brew 'hydra'
-brew 'john'
-brew 'nmap'
-brew 'socat'
-brew 'tcpflow'
-brew 'tcpreplay'
-brew 'tcptrace'
-brew 'ucspi-tcp' # `tcpserver` etc.
-
-# OVPN
-cask 'tunnelblick'
-
-# HAX
-brew 'youtube-dl'
 
 # VIRTUALIZATION
 cask 'docker'
@@ -69,10 +17,3 @@ cask 'docker'
 # MUSIC/MEDIA
 brew 'mpv', args: ['with-bundle']
 cask 'mediainfo'
-cask 'audacity'
-cask 'xld'
-cask 'adobe-photoshop-lightroom'
-
-# AVIATION
-brew 'rtl-sdr'
-
