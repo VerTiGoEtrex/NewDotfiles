@@ -16,13 +16,13 @@ echo "  Updating/Upgrading Homebrew"
 brew update
 brew upgrade
 
-echo "  Installing BrewBundle"
-brew tap Homebrew/bundle
+# echo "  Installing BrewBundle"
+# brew tap Homebrew/bundle
 
-echo "  Running bundle"
-brew bundle install --file=$(dirname $0)/Brewfile
+# echo "  Running bundle"
+# brew bundle install --file=$(dirname $0)/Brewfile
 
-echo "  Consider running \"brew bundle cleanup\""
+# echo "  Consider running \"brew bundle cleanup\""
 echo "  Consider running \"brew cleanup\""
 echo "  Consider running \"brew cask cleanup\""
 
