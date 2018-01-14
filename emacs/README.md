@@ -1,5 +1,8 @@
 This hosts a git subtree containing spacemacs repo  to freeze versions a bit better.
 
+Needs fonts
+brew tap caskroom/fonts && brew cask install font-source-code-pro
+
 (from https://www.atlassian.com/blog/git/alternatives-to-git-submodule-git-subtree)
 Adding the sub-project as a remote
 Adding the subtree as a remote allows us to refer to it in shorter form:
