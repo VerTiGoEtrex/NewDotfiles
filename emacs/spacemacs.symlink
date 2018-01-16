@@ -320,11 +320,11 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
-  )
-
-;; (ncrocker) This fixes powerline on osx
-(setq powerline-image-apple-rgb t)
-(setq magit-repository-directories '("~/dev/personal/"))
+  (setq-default
+    ;; (ncrocker) This fixes powerline on osx
+    powerline-image-apple-rgb t
+    magit-repository-directories '("~/dev/personal/")
+    ))
 
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
